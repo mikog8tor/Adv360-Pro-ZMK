@@ -2,7 +2,7 @@ macro_ocr: macro_ocr{
 compatible = "zmk,behavior-macro";
 label = "macro_ocr";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_WIN>, <&kp T>;
+bindings = <&kp RIGHT_WIN(T)>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
